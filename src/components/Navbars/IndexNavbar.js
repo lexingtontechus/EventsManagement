@@ -4,14 +4,7 @@ import { Link } from "react-router-dom";
 // components
 
 import IndexDropdown from "components/Dropdowns/IndexDropdown.js";
-import {
-  sitelogo,
-  logo,
-  sitename,
-  sitetwitter,
-  siteinstagram,
-  sitefacebook
-} from "/src/whitelabel";
+import * as WL from "/src/whitelabel";
 //const SITENAME = "Travelers Q";
 
 export default function Navbar(props) {
@@ -27,7 +20,7 @@ export default function Navbar(props) {
             >
               <img
                 src={require("/src/assets/img/logo.png")}
-                alt={sitename}
+                alt={WL.sitename}
                 className="w-6/12 sm:w-4/12 px-4 rounded-full max-w-200-px h-auto align-middle border-none"
               />
             </Link>
@@ -67,7 +60,7 @@ export default function Navbar(props) {
               <li className="flex items-center">
                 <a
                   className="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href={sitefacebook}
+                  href={WL.sitefacebook}
                   target="_blank"
                 >
                   <i className="text-blueGray-400 fab fa-facebook text-lg leading-lg " />
@@ -78,7 +71,7 @@ export default function Navbar(props) {
               <li className="flex items-center">
                 <a
                   className="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href={sitetwitter}
+                  href={WL.sitetwitter}
                   target="_blank"
                 >
                   <i className="text-blueGray-400 fab fa-twitter text-lg leading-lg " />
@@ -89,7 +82,7 @@ export default function Navbar(props) {
               <li className="flex items-center">
                 <a
                   className="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href={siteinstagram}
+                  href={WL.siteinstagram}
                   rel="noreferrer"
                   target="_blank"
                 >

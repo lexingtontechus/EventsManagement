@@ -5,6 +5,8 @@ import { Link } from "react-router-dom";
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import Footer from "components/Footers/Footer.js";
 
+import * as Content from "./Content";
+
 export default function Index() {
   return (
     <>
@@ -14,10 +16,12 @@ export default function Index() {
           <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
             <div className="pt-32 sm:pt-0">
               <h2 className="font-semibold text-4xl text-blueGray-600">
-                SIMPLIFYING CORPORATE & EVENTS TRAVEL
+                {/*<HomeMainHeader />*/}
+                {Content.HomeMainHeader}
               </h2>
               <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                Get The Full Travel Experience You Deserve For Less
+                {/*<HomeMainSection />*/}
+                {Content.HomeMainSection}
               </p>
               <div className="mt-12">
                 <a
@@ -62,17 +66,15 @@ export default function Index() {
                 <i className="fas fa-compass text-xl"></i>
               </div>
               <h3 className="text-3xl mb-2 font-semibold leading-normal text-white">
-                TRAVEL MANAGEMENT
+                {/*HomeSection1Main */}
+                {Content.HomeSection1Header}
               </h3>
               <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-white">
-                Travel safe
+                {/*HomeSection1Tagline */}
               </p>
               <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-white">
-                Smart tech driven travel incorporating,
-                <ul>
-                  <li>Health & safety protocols</li>
-                  <li>Precise contact tracing</li>
-                </ul>
+                {/*HomeSection1Main */}
+                {Content.HomeSection1Main}
               </p>
               <a
                 href="https://yelp.com?ref=nr-index"
@@ -121,9 +123,13 @@ export default function Index() {
                   &#127977;
                 </span>
               </p>
-              <h3 className="font-semibold text-3xl">Host Your Own Tour</h3>
+              <h3 className="font-semibold text-3xl">
+                {/*HomeSection2Header */}
+                {Content.HomeSection2Header}
+              </h3>
               <p className="text-blueGray-500 text-lg leading-relaxed mt-4 mb-4">
-                Join us for your next exciting group travel event.
+                {/*HomeSection2Tagline */}
+                {Content.HomeSection2Tagline}
               </p>
               <div className="sm:block flex flex-col mt-10">
                 <a

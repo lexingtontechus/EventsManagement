@@ -3,13 +3,7 @@
 
 import React from "react";
 import { Link } from "react-router-dom";
-import {
-  sitename,
-  sitedomain,
-  sitepowered,
-  sitepowereddomain,
-  sitelogo
-} from "/src/whitelabel";
+import * as WL from "/src/whitelabel";
 // components
 
 import Navbar from "components/Navbars/AuthNavbar.js";
@@ -297,11 +291,10 @@ export default function About() {
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap justify-center text-center mb-24">
               <div className="w-full lg:w-6/12 px-4">
-                <h2 className="text-4xl font-semibold">Here are our heroes</h2>
+                <h2 className="text-4xl font-semibold">Here the team</h2>
                 <p className="text-lg leading-relaxed m-4 text-blueGray-500">
-                  According to the National Oceanic and Atmospheric
-                  Administration, Ted, Scambos, NSIDClead scentist, puts the
-                  potentially record maximum.
+                  TRAVELERS Q AGENTS ARE EXPERTS IN EVENT MANAGEMENT, EVENT
+                  DIRECTING, TRAVEL MANAGEMENT, AND MORE.
                 </p>
               </div>
             </div>

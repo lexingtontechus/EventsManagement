@@ -34,74 +34,47 @@ const people = [
   }
 ];
 
-{
-  /*
-export default function Team() {
-  return (
-    <ul className="divide-y divide-gray-200">
-      {people.map((person) => (
-        
-        <li key={person.email} className="py-4 flex">
-          <img className="h-10 w-10 rounded-full" src={person.image} alt="" />
-          <div className="ml-3">
-            <p className="text-sm font-medium text-gray-900">{person.name}</p>
-            <p className="text-sm text-gray-500">{person.email}</p>
-          </div>
-        </li>
-      ))}
-    </ul>
-  );
-}
-*/
-}
-
 export default function Team() {
   return (
     <div className="flex flex-wrap">
       {people.map((person) => (
         <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
-          <div className="px-6">
-            <div key={person.email} className="pt-6 text-center">
-              <img
-                className="shadow-lg rounded-full mx-auto max-w-120-px"
-                src={person.image}
-                alt=""
-              />
-              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
-                <div className="px-6">
-                  <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
-                    {person.name}
-                  </p>
-                  <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
-                    {person.email}
-                  </p>
-                  <div className="mt-6">
-                    <button
-                      className="bg-lightBlue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                      type="button"
-                    >
-                      <a
-                        href={person.linkedin}
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <i className="fab fa-linkedin"></i>
-                      </a>
-                    </button>
-                    <button
-                      className="bg-lightBlue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                      type="button"
-                    >
-                      <i className="fab fa-facebook-f"></i>
-                    </button>
-                    <button
-                      className="bg-pink-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                      type="button"
-                    >
-                      <i className="fab fa-dribbble"></i>
-                    </button>
-                  </div>
-                </div>
+          <div className="px-6" key={person.email}>
+            <img
+              className="shadow-lg rounded-full mx-auto max-w-120-px"
+              src={person.image}
+              alt=""
+            />
+            <div className="pt-6 text-center">
+              <h5 className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
+                {person.name}
+              </h5>
+              <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
+                {person.title}
+              </p>
+              <div className="mt-6">
+                <button
+                  className="bg-lightBlue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                  type="button"
+                >
+                  <a href={person.linkedin} target="_blank" rel="noreferrer">
+                    <i className="fab fa-linkedin"></i>
+                  </a>
+                </button>
+                <button
+                  className="bg-lightBlue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                  type="button"
+                >
+                  <a href={person.facebook} target="_blank" rel="noreferrer">
+                    <i className="fab fa-facebook-f"></i>
+                  </a>
+                </button>
+                <button
+                  className="bg-pink-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                  type="button"
+                >
+                  <i className="fab fa-instagram"></i>
+                </button>
               </div>
             </div>
           </div>

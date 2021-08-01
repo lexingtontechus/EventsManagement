@@ -1,13 +1,7 @@
 /*eslint-disable*/
 import React from "react";
 import { Link } from "react-router-dom";
-import {
-  sitelogo,
-  sitename,
-  sitetwitter,
-  sitefacebook,
-  siteinstagram
-} from "/src/whitelabel";
+import * as WL from "/src/whitelabel";
 
 // components
 
@@ -25,8 +19,8 @@ export default function Navbar(props) {
               to="/"
             >
               <img
-                src={require("/src/assets/img/logo.png")}
-                alt={sitename}
+                src={WL.sitelogo}
+                alt={WL.sitename}
                 className="w-6/12 sm:w-4/12 px-4 rounded-full max-w-200-px h-auto align-middle border-none"
               />
             </Link>
@@ -63,7 +57,7 @@ export default function Navbar(props) {
               <li className="flex items-center">
                 <a
                   className="lg:text-white lg:hover:text-blueGray-200 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href={sitefacebook}
+                  href={WL.sitefacebook}
                   target="_blank"
                 >
                   <i className="lg:text-blueGray-200 text-blueGray-400 fab fa-facebook text-lg leading-lg " />
@@ -74,7 +68,7 @@ export default function Navbar(props) {
               <li className="flex items-center">
                 <a
                   className="lg:text-white lg:hover:text-blueGray-200 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href={sitetwitter}
+                  href={WL.sitetwitter}
                   target="_blank"
                 >
                   <i className="lg:text-blueGray-200 text-blueGray-400 fab fa-twitter text-lg leading-lg " />
@@ -85,7 +79,7 @@ export default function Navbar(props) {
               <li className="flex items-center">
                 <a
                   className="lg:text-white lg:hover:text-blueGray-200 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href={siteinstagram}
+                  href={WL.siteinstagram}
                   target="_blank"
                 >
                   <i className="lg:text-blueGray-200 text-blueGray-400 fab fa-instagram-square text-lg leading-lg " />
