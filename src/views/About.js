@@ -147,18 +147,28 @@ export default function About() {
                   Working with us is a pleasure
                 </h3>
                 <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-                  Don't let your uses guess by attaching tooltips and popoves to
-                  any element. Just make sure you enable them first via
-                  JavaScript.
+                  We help prioritize,
+                  <ul>
+                    <li>Safety</li>
+                    <li>Financial Resilience</li>
+                    <li>Industry Restart</li>
+                    <li>Environmental Sustainability</li>
+                  </ul>
                 </p>
                 <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-600">
-                  The kit comes with three pre-built pages to help you get
-                  started faster. You can change the text and images and you're
-                  good to go. Just make sure you enable them first via
-                  JavaScript.
+                  Out solution comes with pre-built,
+                  <ul>
+                    <li>Events setup</li>
+                    <li>Booking management</li>
+                    <li>Group travel management</li>
+                    <li>Payments & invoicing integration</li>
+                  </ul>
                 </p>
-                <Link to="/" className="font-bold text-blueGray-700 mt-8">
-                  Check Notus React!
+                <Link
+                  to="/Testimonals"
+                  className="font-bold text-blueGray-700 mt-8"
+                >
+                  Check our testimonials!
                 </Link>
               </div>
 
@@ -185,9 +195,11 @@ export default function About() {
                       Top Notch Services
                     </h4>
                     <p className="text-md font-light mt-2 text-white">
-                      The Arctic Ocean freezes every winter and much of the
-                      sea-ice then thaws every summer, and that process will
-                      continue whatever happens.
+                      We manage business travel, plan and operate meetings and
+                      incentive travel programs, create curated personal leisure
+                      travel experiences, and power a renowned host agency for a
+                      worldwide network of independent travel advisors, and
+                      independent meeting and event affiliates.
                     </p>
                   </blockquote>
                 </div>
@@ -231,11 +243,11 @@ export default function About() {
                   <div className="text-lightBlue-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-lightBlue-300">
                     <i className="fas fa-rocket text-xl"></i>
                   </div>
-                  <h3 className="text-3xl font-semibold">A growing company</h3>
+                  <h3 className="text-3xl font-semibold">
+                    MEETINGS + INCENTIVE TRAVEL
+                  </h3>
                   <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                    The extension comes with three pre-built pages to help you
-                    get started faster. You can change the text and images and
-                    you're good to go.
+                    Protecting travelers is one of our primary concerns.
                   </p>
                   <ul className="list-none mt-6">
                     <li className="py-2">
@@ -247,7 +259,7 @@ export default function About() {
                         </div>
                         <div>
                           <h4 className="text-blueGray-500">
-                            Carefully crafted components
+                            Attendee Management
                           </h4>
                         </div>
                       </div>
@@ -260,9 +272,7 @@ export default function About() {
                           </span>
                         </div>
                         <div>
-                          <h4 className="text-blueGray-500">
-                            Amazing page examples
-                          </h4>
+                          <h4 className="text-blueGray-500">Group Travel</h4>
                         </div>
                       </div>
                     </li>
@@ -274,9 +284,7 @@ export default function About() {
                           </span>
                         </div>
                         <div>
-                          <h4 className="text-blueGray-500">
-                            Dynamic components
-                          </h4>
+                          <h4 className="text-blueGray-500">Safe to travel</h4>
                         </div>
                       </div>
                     </li>
@@ -291,7 +299,7 @@ export default function About() {
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap justify-center text-center mb-24">
               <div className="w-full lg:w-6/12 px-4">
-                <h2 className="text-4xl font-semibold">Here the team</h2>
+                <h2 className="text-4xl font-semibold">Here's the team</h2>
                 <p className="text-lg leading-relaxed m-4 text-blueGray-500">
                   TRAVELERS Q AGENTS ARE EXPERTS IN EVENT MANAGEMENT, EVENT
                   DIRECTING, TRAVEL MANAGEMENT, AND MORE.
@@ -332,12 +340,11 @@ export default function About() {
             <div className="flex flex-wrap text-center justify-center">
               <div className="w-full lg:w-6/12 px-4">
                 <h2 className="text-4xl font-semibold text-white">
-                  Build something
+                  Are you ready to transform your next vacation, meeting or
+                  business travel experience?
                 </h2>
                 <p className="text-lg leading-relaxed mt-4 mb-4 text-blueGray-400">
-                  Put the potentially record low maximum sea ice extent tihs
-                  year down to low ice. According to the National Oceanic and
-                  Atmospheric Administration, Ted, Scambos.
+                  We can help. A better travel experience starts now.
                 </p>
               </div>
             </div>
@@ -350,8 +357,11 @@ export default function About() {
                   Excellent Services
                 </h6>
                 <p className="mt-2 mb-4 text-blueGray-400">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Traveler's Q handles all aspects of tour management including
+                  streamlined booking and invoicing, efficient vendor and
+                  traveler communications, robust marketing segmentation and
+                  tracking, in-depth operations analysis and reporting, and
+                  much, much more.
                 </p>
               </div>
               <div className="w-full lg:w-3/12 px-4 text-center">
@@ -362,8 +372,8 @@ export default function About() {
                   Grow your market
                 </h5>
                 <p className="mt-2 mb-4 text-blueGray-400">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Traveler's Q Group Events Management solution is a
+                  competitively priced "all in one" package,
                 </p>
               </div>
               <div className="w-full lg:w-3/12 px-4 text-center">
@@ -374,8 +384,7 @@ export default function About() {
                   Launch time
                 </h5>
                 <p className="mt-2 mb-4 text-blueGray-400">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Your own whitelabel solution can be customized and launched
                 </p>
               </div>
             </div>

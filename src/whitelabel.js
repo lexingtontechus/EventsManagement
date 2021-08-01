@@ -19,9 +19,9 @@ export const sitetwitter = "https=//twitter.com/travelers_q";
 export const siteinstagram = "https=//www.instagram.com/Travelers.Q";
 export const sitephone = "(302) 660-3680";
 export const logo =
-  "https=//firebasestorage.googleapis.com/v0/b/tq-mvp.appspot.com/o/images%2Flogo_tq.png?alt=media&token=1b12c51c-7fff-4822-8031-957e027d7d36";
+  "https://firebasestorage.googleapis.com/v0/b/tq-mvp.appspot.com/o/images%2Flogo_tq.png?alt=media&token=1b12c51c-7fff-4822-8031-957e027d7d36";
 export const sitelogo =
-  "https=//firebasestorage.googleapis.com/v0/b/tq-mvp.appspot.com/o/images%2Flogo_tq.png?alt=media&token=1b12c51c-7fff-4822-8031-957e027d7d36";
+  "https://firebasestorage.googleapis.com/v0/b/tq-mvp.appspot.com/o/images%2Flogo_tq.png?alt=media&token=1b12c51c-7fff-4822-8031-957e027d7d36";
 export const sitepowered = "Lexington Tech";
 export const sitepowereddomain = "https=//www.lexingtontech.us";
 
