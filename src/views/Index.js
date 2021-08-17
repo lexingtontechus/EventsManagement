@@ -16,13 +16,13 @@ export default function Index() {
           <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
             <div className="pt-32 sm:pt-0">
               <h2 className="font-semibold text-4xl text-blueGray-600">
-                {/* /content/home */}
-                {/*<Home Header />*/}
+                {/*<HomeMainHeader />*/}
+                {Content.HomeMainHeader}
                 {Content.HomeHeader}
               </h2>
               <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
                 {/*<HomeMainSection />*/}
-                {Content.HomeTagline}
+                {Content.HomeMainSection}
               </p>
               <div className="mt-12">
                 <a
@@ -44,7 +44,7 @@ export default function Index() {
           </div>
         </div>
         <img
-          src="https://firebasestorage.googleapis.com/v0/b/tq-mvp.appspot.com/o/images%2Fbg_mainsection.png?alt=media&token=46e68fa0-2154-4524-ba62-81a5812087b9"
+          src="https://firebasestorage.googleapis.com/v0/b/tq-mvp.appspot.com/o/images%2Fevent_dubai_expo.jpg?alt=media&token=4f2b3ecb-21eb-49aa-99e5-697d3c80e3ef"
           className="absolute top-0 b-auto right-0 pt-16 sm:w-6/12 -mt-48 sm:mt-0 w-10/12 max-h-860px"
           alt="Events Management"
         />

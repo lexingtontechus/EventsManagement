@@ -26,7 +26,7 @@ const people = [
   },
   {
     name: "Mary Page",
-    title: "Head of Operations",
+    title: "Head of Customer Service",
     linkedin: "https://linkedin.com/",
     email: "mary.page@travelersq.com",
     image:

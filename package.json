@@ -1,5 +1,5 @@
 {
-  "name": "event-management",
+  "name": "events",
   "version": "1.1.0",
   "description": "",
   "repository": "https://github.com/creativetimofficial/notus-react",
@@ -10,6 +10,7 @@
     "@tailwindcss/forms": "0.2.1",
     "autoprefixer": "10.2.5",
     "chart.js": "2.9.4",
+    "firebase": "8.9.0",
     "gulp": "4.0.2",
     "gulp-append-prepend": "1.0.8",
     "postcss": "8.2.8",
@@ -32,11 +33,7 @@
     "extends": "react-app"
   },
   "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
+    "production": [">0.2%", "not dead", "not op_mini all"],
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
@@ -46,7 +43,5 @@
   "optionalDependencies": {
     "typescript": "4.2.3"
   },
-  "keywords": [
-    "mvp"
-  ]
+  "keywords": ["mvp"]
 }

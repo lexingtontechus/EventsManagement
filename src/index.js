@@ -19,6 +19,8 @@ import Index from "views/Index.js";
 import About from "views/About.js";
 import Events from "views/Events.js";
 
+import Display from "views/events/Display.js";
+
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
@@ -30,6 +32,7 @@ ReactDOM.render(
       <Route path="/profile" exact component={Profile} />
       <Route path="/about" exact component={About} />
       <Route path="/events" exact component={Events} />
+      <Route path="/display" exact component={Display} />
       <Route path="/" exact component={Index} />
       {/* add redirect for first page */}
       <Redirect from="*" to="/" />
