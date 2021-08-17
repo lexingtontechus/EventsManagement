@@ -35,7 +35,7 @@ export default function FooterSmall(props) {
                     href={WL.sitepowereddomain}
                     target="_blank"
                     rel="noreferrer"
-                    alt={sitepowered}
+                    alt={WL.sitepowered}
                     className="text-blueGray-600 hover:text-blue;Gray-800 text-sm font-semibold block py-1 px-3"
                   >
                     By {WL.sitepowered}

@@ -1,6 +1,5 @@
 import React from "react";
 import { createPopper } from "@popperjs/core";
-import * as WL from "/src/whitelabel";
 
 const UserDropdown = () => {
   // dropdown props
@@ -9,7 +8,7 @@ const UserDropdown = () => {
   const popoverDropdownRef = React.createRef();
   const openDropdownPopover = () => {
     createPopper(btnDropdownRef.current, popoverDropdownRef.current, {
-      placement: "bottom-start"
+      placement: "bottom-start",
     });
     setDropdownPopoverShow(true);
   };
@@ -32,8 +31,7 @@ const UserDropdown = () => {
             <img
               alt="..."
               className="w-full rounded-full align-middle border-none shadow-lg"
-              //src={require("assets/img/team-1-800x800.jpg").default}
-              src={WL.team1}
+              src={require("assets/img/team-1-800x800.jpg").default}
             />
           </span>
         </div>

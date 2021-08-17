@@ -9,7 +9,7 @@ const NotificationDropdown = () => {
   const openDropdownPopover = () => {
     console.log("hey");
     createPopper(btnDropdownRef.current, popoverDropdownRef.current, {
-      placement: "bottom-start",
+      placement: "bottom-start"
     });
     setDropdownPopoverShow(true);
   };

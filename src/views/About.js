@@ -382,6 +382,7 @@ export default function About() {
             </div>
           </div>
         </section>
+
         <section
           id="contactform"
           className="relative block py-24 lg:pt-0 bg-blueGray-800"
@@ -454,11 +455,11 @@ export default function About() {
             </div>
           </div>
         </section>
+
         <section id="Testing" className="pb-20 relative block bg-blueGray-800">
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap">
               <Team />
-              </div>
             </div>
           </div>
         </section>

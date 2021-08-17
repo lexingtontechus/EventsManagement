@@ -1,14 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { createPopper } from "@popperjs/core";
-import {
-  sitelogo,
-  logo,
-  sitename,
-  sitetwitter,
-  siteinstagram,
-  sitefacebook
-} from "/src/whitelabel";
+import * as WL from "/src/whitelabel";
 
 const IndexDropdown = () => {
   // dropdown props
@@ -44,7 +37,7 @@ const IndexDropdown = () => {
           "bg-white text-base z-50 float-left py-2 list-none text-left rounded shadow-lg min-w-48"
         }
       >
-        <span
+        {/*        <span
           className={
             "text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-blueGray-400"
           }
@@ -75,6 +68,8 @@ const IndexDropdown = () => {
         >
           Maps
         </Link>
+        */}
+
         <div className="h-0 mx-4 my-2 border border-solid border-blueGray-100" />
         <span
           className={
@@ -83,18 +78,6 @@ const IndexDropdown = () => {
         >
           My Account
         </span>
-        <Link
-          to="auth/register2"
-          className="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
-        >
-          Sign In
-        </Link>
-        <Link
-          to="/auth/signup"
-          className="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
-        >
-          Sign Up
-        </Link>
         <Link
           to="/auth/login"
           className="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
@@ -113,7 +96,7 @@ const IndexDropdown = () => {
             "text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-blueGray-400"
           }
         >
-          {sitename}
+          {WL.sitename}
         </span>
         <Link
           to="/events"

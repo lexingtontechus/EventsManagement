@@ -1,5 +1,5 @@
 import React from "react";
-import * as WL from "/src/whitelabel";
+
 // components
 
 export default function CardProfile() {
@@ -12,8 +12,7 @@ export default function CardProfile() {
               <div className="relative">
                 <img
                   alt="..."
-                  //src={require("assets/img/team-2-800x800.jpg").default}
-                  src={WL.team1}
+                  src={require("assets/img/team-2-800x800.jpg").default}
                   className="shadow-xl rounded-full h-auto align-middle border-none absolute -m-16 -ml-20 lg:-ml-16 max-w-150-px"
                 />
               </div>
