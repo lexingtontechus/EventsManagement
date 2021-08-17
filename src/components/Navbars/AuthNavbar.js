@@ -1,7 +1,7 @@
 /*eslint-disable*/
 import React from "react";
 import { Link } from "react-router-dom";
-import * as WL from "/src/whitelabel";
+import * as WL from "../../whitelabel";
 
 // components
 

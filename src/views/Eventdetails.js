@@ -3,13 +3,7 @@
 
 import React from "react";
 import { Link } from "react-router-dom";
-import {
-  sitename,
-  sitedomain,
-  sitepowered,
-  sitepowereddomain,
-  sitelogo
-} from "/src/whitelabel";
+import * as WL from "../../whitelabel";
 // components
 
 import Navbar from "components/Navbars/AuthNavbar.js";
@@ -24,7 +18,8 @@ export default function Eventdetails() {
           <div
             className="absolute top-0 w-full h-full bg-center bg-cover"
             style={{
-              backgroundImage: "url('https://firebasestorage.googleapis.com/v0/b/tq-mvp.appspot.com/o/images%2Ftq_travel_management.jpg?alt=media&token=18e89dec-3540-4c74-b880-9302d8b323ff')"
+              backgroundImage:
+                "url('https://firebasestorage.googleapis.com/v0/b/tq-mvp.appspot.com/o/images%2Ftq_travel_management.jpg?alt=media&token=18e89dec-3540-4c74-b880-9302d8b323ff')"
             }}
           >
             <span
@@ -40,7 +35,9 @@ export default function Eventdetails() {
                     Your adventure starts with us.
                   </h1>
                   <p className="mt-4 text-lg text-blueGray-200">
-                    If you want access to specialized travel bookings with exceptional customer service and VIP treatment,look to Traveler’s Q. This is what we do, and we are happy to help.
+                    If you want access to specialized travel bookings with
+                    exceptional customer service and VIP treatment,look to
+                    Traveler’s Q. This is what we do, and we are happy to help.
                   </p>
                 </div>
               </div>
@@ -66,11 +63,14 @@ export default function Eventdetails() {
             </svg>
           </div>
         </div>
-    {/*Event-Product Details */}
+        {/*Event-Product Details */}
         <section className="pb-20 bg-blueGray-200 -mt-24">
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap">
-              <div id="Event Details" class="bg-white dark:bg-gray-800 flex relative z-20 items-center overflow-hidden">
+              <div
+                id="Event Details"
+                class="bg-white dark:bg-gray-800 flex relative z-20 items-center overflow-hidden"
+              >
                 <div class="container mx-auto px-6 flex relative py-16">
                   <div class="sm:w-2/3 lg:w-2/5 flex flex-col relative z-20">
                     <span class="w-20 h-2 bg-gray-800 dark:bg-white mb-12"></span>
@@ -78,11 +78,18 @@ export default function Eventdetails() {
                     <h1 class="font-bebas-neue uppercase text-6xl sm:text-8xl font-black flex flex-col leading-none dark:text-white text-gray-800">
                       Executive Single Suite
                       {/*Product Tag */}
-                      <span class="text-5xl sm:text-7xl">"The Atrium" featuring Pacific Ocean views</span>
+                      <span class="text-5xl sm:text-7xl">
+                        "The Atrium" featuring Pacific Ocean views
+                      </span>
                     </h1>
                     {/*Event Descriptuon */}
                     <p class="text-sm sm:text-base text-gray-700 dark:text-white">
-                    Expo 2020 Dubai will host the world for 182 days, each one brimming with new experiences. It’ll be a time to create, collaborate and innovate. And it’s going to be fun. We’re talking eye-catching, mind-bending, taste bud-tickling, grin-inducing, good-weird, did-that-really-just-happen fun.
+                      Expo 2020 Dubai will host the world for 182 days, each one
+                      brimming with new experiences. It’ll be a time to create,
+                      collaborate and innovate. And it’s going to be fun. We’re
+                      talking eye-catching, mind-bending, taste bud-tickling,
+                      grin-inducing, good-weird, did-that-really-just-happen
+                      fun.
                     </p>
                     <div class="flex mt-8">
                       <a

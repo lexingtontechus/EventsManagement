@@ -18,7 +18,6 @@ export default function Index() {
               <h2 className="font-semibold text-4xl text-blueGray-600">
                 {/*<HomeMainHeader />*/}
                 {Content.HomeMainHeader}
-                {Content.HomeHeader}
               </h2>
               <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
                 {/*<HomeMainSection />*/}

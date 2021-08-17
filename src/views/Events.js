@@ -3,13 +3,7 @@
 
 import React from "react";
 import { Link } from "react-router-dom";
-import {
-  sitename,
-  sitedomain,
-  sitepowered,
-  sitepowereddomain,
-  sitelogo
-} from "/src/whitelabel";
+//import * as WL from "../../whitelabel";
 // components
 
 import Navbar from "components/Navbars/AuthNavbar.js";

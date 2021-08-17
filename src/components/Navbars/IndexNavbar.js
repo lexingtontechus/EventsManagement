@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 // components
 
 import IndexDropdown from "components/Dropdowns/IndexDropdown.js";
-import * as WL from "/src/whitelabel";
+import * as WL from "../../whitelabel";
 //const SITENAME = "Travelers Q";
 
 export default function Navbar(props) {

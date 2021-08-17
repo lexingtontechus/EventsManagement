@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { createPopper } from "@popperjs/core";
-import * as WL from "/src/whitelabel";
+import * as WL from "../../whitelabel";
 
 const IndexDropdown = () => {
   // dropdown props

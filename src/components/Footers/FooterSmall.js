@@ -1,5 +1,5 @@
 import React from "react";
-import * as WL from "/src/whitelabel";
+import * as WL from "../../whitelabel";
 
 export default function FooterSmall(props) {
   return (
