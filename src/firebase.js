@@ -21,13 +21,13 @@ const app = firebase.initializeApp({
 // Instantiate a Firebase app.
 const fbauth = firebase.auth();
 
-const db = app.firestore();
+const fbdb = app.firestore();
 const settings = { timestampsInSnapshots: true };
-db.settings(settings);
+fbdb.settings(settings);
 
 export function getEvents(collection) {
-  return db.collection(collection).get();
+  return fbdb.collection(collection).get();
 }
 
-export default db;
-export { firebase, app, db, fbauth };
+export default fbdb;
+export { firebase, app, fbdb, fbauth };

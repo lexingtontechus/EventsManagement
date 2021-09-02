@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 import Navbar from "components/Navbars/AuthNavbar.js";
 import Footer from "components/Footers/Footer.js";
 
-export default function Events() {
+export default function PublicEvents() {
   return (
     <>
       <Navbar transparent />

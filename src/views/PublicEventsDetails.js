@@ -9,7 +9,7 @@ import * as WL from "../../whitelabel";
 import Navbar from "components/Navbars/AuthNavbar.js";
 import Footer from "components/Footers/Footer.js";
 
-export default function Eventdetails() {
+export default function PublicEventDetails() {
   return (
     <>
       <Navbar transparent />

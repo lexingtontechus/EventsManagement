@@ -17,9 +17,10 @@ import Profile from "views/Profile.js";
 import Index from "views/Index.js";
 
 import About from "views/About.js";
-import Events from "views/Events.js";
+//import PublicEvents from "views/PublicEvents.js";
 
-import Display from "views/events/Display.js";
+// Auth Events
+//import PrivateEvents from "views/events/PrivateEvents.js";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -31,8 +32,6 @@ ReactDOM.render(
       <Route path="/landing" exact component={Landing} />
       <Route path="/profile" exact component={Profile} />
       <Route path="/about" exact component={About} />
-      <Route path="/events" exact component={Events} />
-      <Route path="/display" exact component={Display} />
       <Route path="/" exact component={Index} />
       {/* add redirect for first page */}
       <Redirect from="*" to="/" />
